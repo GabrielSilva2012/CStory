@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer {
+  position: relative;
+  top: 75px;
+}
+img{
+  max-height: screen;
+
+}
+.bloco {
+  width: screen;
+  height: screen  ;
+  margin: 15px;
+  overflow: hidden;
+}
+.bloco img{
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.bloco img:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+.elem {
+  width: 325px;
+  height: 150px;
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(325px);
+  }
+}
