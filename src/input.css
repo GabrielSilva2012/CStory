@@ -2,10 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Fonte do CS */
+@font-face {
+  font-family: 'cs';
+  src: url('../fonte/cs_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.body{
+  font-family: 'cs';
+  word-spacing: 5px;
+}
+
+/* Colocando a Footer no final */
 .footer {
   position: relative;
   top: 75px;
 }
+
+/* Fazendo a Imagem Mexer */
 img{
   max-height: screen;
 
@@ -24,11 +42,17 @@ img{
   -webkit-transform:scale(1.2);
   transform:scale(1.2);
 }
-.elem {
+
+/* Fazendo a Animação Mexer */
+.elem{
+  width: 325px;
+  height: 150px;
+}
+.elem:hover {
   width: 325px;
   height: 150px;
   animation: moveToRight 1s ease-in-out;
-  animation-delay: 1.5s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
 }
 
@@ -38,5 +62,24 @@ img{
   }
   100% {
     transform: translateX(325px);
+  }
+}
+
+.autor {
+  animation: animate 
+      1.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 0.7;
+  }
+
+  100% {
+      opacity: 0;
   }
 }
