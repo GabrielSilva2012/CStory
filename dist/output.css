@@ -872,8 +872,8 @@ img{
 .elem {
   width: 325px;
   height: 150px;
-  -webkit-animation: moveToRight 2s ease-in-out;
-          animation: moveToRight 2s ease-in-out;
+  -webkit-animation: moveToRight 1s ease-in-out;
+          animation: moveToRight 1s ease-in-out;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
   -webkit-animation-fill-mode: forwards;
