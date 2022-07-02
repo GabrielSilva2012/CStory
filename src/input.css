@@ -49,7 +49,7 @@ img{
   height: 150px;
 }
 .elem:hover {
-  width: 325px;
+  width: 350px;
   height: 150px;
   animation: moveToRight 1s ease-in-out;
   animation-delay: 0s;
@@ -61,10 +61,12 @@ img{
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(325px);
+    transform: translateX(350px);
   }
 }
 
+
+/* Fazer os Elementos Piscarem */
 .autor {
   animation: animate 
       1.5s linear infinite;
@@ -82,4 +84,238 @@ img{
   100% {
       opacity: 0;
   }
+}
+
+
+/* Fazer os Elementos Piscarem */
+/* Bala Esquerda */
+.bala {
+  left: 0%;
+}
+
+
+.bala-abaixo {
+  margin-top: 112px;
+  margin-bottom: 51px;
+  left: 0%;
+
+}
+.bala-2 {
+  left: 0%;
+    animation-delay: 2s;
+
+}
+.bala-abaixo-1 {
+  margin-top: 335px;
+  left: 0%;
+
+}
+
+.bala-abaixo-2 {
+  margin-top: 467px;
+  left: 0%;
+
+
+}
+.bala-abaixo-3 {
+  margin-top: 579px;
+  left: 0%;
+
+}
+
+.bala-abaixo-4 {
+  margin-top: 691px;
+  left: 0%;
+
+}
+
+.bala-abaixo-5 {
+  margin-top: 803px;
+  left: 0%;
+
+}
+
+.bala-abaixo-6 {
+  margin-top: 915px;
+  left: 0%;
+
+}
+
+
+.bala-abaixo-7 {
+  margin-top: 1027px;
+  left: 0%;
+
+}
+
+
+.bala-abaixo-8 {
+  margin-top: 1139px;
+  left: 0%;
+
+}
+
+
+.bala-abaixo-9 {
+  margin-top: 1251px;
+  left: 0%;
+
+}
+
+.bala-abaixo-10 {
+  margin-top: 1363px;
+  left: 0%;
+
+}
+/* Bala Esquerda */
+
+/* Bala Direita */
+.bala-direita {
+  right: 0%;
+
+}
+.bala-2-direita {
+  right: 0%;
+
+}
+
+.bala-abaixo-direita {
+  margin-top: 112px;
+  margin-bottom: 51px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-1 {
+  margin-top: 335px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-2 {
+  margin-top: 467px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-3 {
+  margin-top: 579px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-4 {
+  margin-top: 691px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-5 {
+  margin-top: 803px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-6 {
+  margin-top: 915px;
+  right: 0%;
+
+}
+
+
+.bala-abaixo-direita-7 {
+  margin-top: 1027px;
+  right: 0%;
+
+}
+
+
+.bala-abaixo-direita-8 {
+  margin-top: 1139px;
+  right: 0%;
+
+}
+
+
+.bala-abaixo-direita-9 {
+  margin-top: 1251px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-10 {
+  margin-top: 1363px;
+  right: 0%;
+
+}
+/* Bala Direita */
+
+
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 0.7;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+/* JavaScript */
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	border: none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -99px;
+	overflow: hidden;
+	background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+	background: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+
+}
+
+.js .fadeInDown {
+  transform: translate3d(0,   0px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }
