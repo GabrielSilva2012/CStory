@@ -167,6 +167,21 @@ img{
   left: 0%;
 
 }
+.bala-abaixo-11 {
+  margin-top: 1475px;
+  left: 0%;
+
+}
+.bala-abaixo-12 {
+  margin-top: 1587px;
+  left: 0%;
+
+}
+.bala-abaixo-13 {
+  margin-top: 1699px;
+  left: 0%;
+
+}
 /* Bala Esquerda */
 
 /* Bala Direita */
@@ -246,6 +261,23 @@ img{
   right: 0%;
 
 }
+
+.bala-abaixo-direita-11 {
+  margin-top: 1475px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-12 {
+  margin-top: 1587px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-13 {
+  margin-top: 1699px;
+  right: 0%;
+
+}
+
 /* Bala Direita */
 
 
@@ -319,3 +351,7 @@ img{
   transform: none;
   transition: opacity 800ms, transform 800ms;
 }
+
+
+/* Carrosel JS */
+
