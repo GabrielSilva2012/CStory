@@ -604,6 +604,10 @@ video {
   position: relative;
 }
 
+.left-96 {
+  left: 24rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -624,19 +628,24 @@ video {
   margin: auto;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mx-16 {
   margin-left: 4rem;
   margin-right: 4rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .ml-auto {
@@ -667,6 +676,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -683,16 +696,16 @@ video {
   height: 100vh;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-24 {
   height: 6rem;
 }
 
 .h-72 {
   height: 18rem;
-}
-
-.h-7 {
-  height: 1.75rem;
 }
 
 .h-auto {
@@ -715,8 +728,8 @@ video {
   height: 2rem;
 }
 
-.h-4 {
-  height: 1rem;
+.h-5 {
+  height: 1.25rem;
 }
 
 .h-10 {
@@ -727,12 +740,8 @@ video {
   height: 2.25rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.w-7 {
-  width: 1.75rem;
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-16 {
@@ -747,10 +756,6 @@ video {
   width: 33.333333%;
 }
 
-.w-\[600px\] {
-  width: 600px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -759,8 +764,8 @@ video {
   width: 2rem;
 }
 
-.w-4 {
-  width: 1rem;
+.w-5 {
+  width: 1.25rem;
 }
 
 .w-screen {
@@ -777,10 +782,6 @@ video {
 
 .w-9 {
   width: 2.25rem;
-}
-
-.w-5 {
-  width: 1.25rem;
 }
 
 .max-w-5xl {
@@ -840,16 +841,20 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
-.border-4 {
-  border-width: 4px;
+.border-2 {
+  border-width: 2px;
 }
 
-.border-double {
-  border-style: double;
+.border-dashed {
+  border-style: dashed;
 }
 
 .border-yellow-400 {
@@ -1032,13 +1037,6 @@ video {
   word-spacing: 5px;
 }
 
-/* Colocando a Footer no final */
-
-.footer {
-  position: relative;
-  top: 75px;
-}
-
 /* Fazendo a Imagem Mexer */
 
 img{
@@ -1062,14 +1060,7 @@ img{
 
 /* Fazendo a Animação Mexer */
 
-.elem{
-  width: 325px;
-  height: 150px;
-}
-
-.elem:hover {
-  width: 350px;
-  height: 150px;
+.elem {
   -webkit-animation: moveToRight 1s ease-in-out;
           animation: moveToRight 1s ease-in-out;
   -webkit-animation-delay: 0s;
@@ -1080,21 +1071,21 @@ img{
 
 @-webkit-keyframes moveToRight {
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   100% {
-    transform: translateX(350px);
+    transform: translateX(32.813rem);
   }
 }
 
 @keyframes moveToRight {
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   100% {
-    transform: translateX(350px);
+    transform: translateX(32.813rem);
   }
 }
 
@@ -1134,8 +1125,6 @@ img{
     opacity: 0;
   }
 }
-
-/* Fazer os Elementos Piscarem */
 
 /* Bala Esquerda */
 
