@@ -1,8 +1,53 @@
 if(window.SimpleSlide){
 	new SimpleSlide({
-		slide: "quote", // nome do atributo data-slide="principal"
-		time: 5000 // tempo de transição dos slides
+		slide: "decima", // nome do atributo data-slide="principal"
+		time: 2500 // tempo de transição dos slides
 		});
+
+		new SimpleSlide({
+			slide: "nona", // nome do atributo data-slide="principal"
+			time: 2500 // tempo de transição dos slides
+			});
+
+		new SimpleSlide({
+			slide: "oitava", // nome do atributo data-slide="principal"
+			time: 2500 // tempo de transição dos slides
+			});
+			
+			new SimpleSlide({
+				slide: "setima", // nome do atributo data-slide="principal"
+				time: 2500 // tempo de transição dos slides
+				});
+
+				new SimpleSlide({
+					slide: "sexta", // nome do atributo data-slide="principal"
+					time: 2500 // tempo de transição dos slides
+					});
+
+					new SimpleSlide({
+						slide: "quinta", // nome do atributo data-slide="principal"
+						time: 2500 // tempo de transição dos slides
+						});
+
+						new SimpleSlide({
+							slide: "quarta", // nome do atributo data-slide="principal"
+							time: 2500 // tempo de transição dos slides
+							});
+
+							new SimpleSlide({
+								slide: "terceira", // nome do atributo data-slide="principal"
+								time: 2500 // tempo de transição dos slides
+								});
+
+								new SimpleSlide({
+									slide: "segunda", // nome do atributo data-slide="principal"
+									time: 2500 // tempo de transição dos slides
+									});	
+
+									new SimpleSlide({
+										slide: "primeira", // nome do atributo data-slide="principal"
+										time: 2500 // tempo de transição dos slides
+										});
 
 	new SimpleSlide({
 		slide: "portfolio",

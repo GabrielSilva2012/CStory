@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="../src/skin.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <title>CStory</title>
+</head>
+
+<body class="h-screen  bg-[#1F2A40] border-yellow-400  body">
+  <!--Header-->
+  <header class="bg-black">
+    <div class="absolute w-6 h-6 left-96 my-5 elem"><img src="../img/bala.svg" alt="" class=""></div>
+    <div class="container max-w-5xl mx-auto px-4 h-24 flex items-center bg-black">
+      <div class=""><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">
+          <img src="../img/cs-go-logo.svg" alt="logo" class="h-72"> </a>
+      </div>
+
+      <ul class="flex  items-center space-x-3 ml-auto pt-2">
+        <li><a href="index.html" class="text-[#F8C64F] text-lg  hover:text-[#FEB321] hover:underline">HOME</a>
+
+
+        </li>
+        <li><a href="camp.html" class="text-[#F8C64F] text-lg hover:text-[#FEB321] hover:underline">CAMP</a></li>
+        <li><a href="skin.html" class="text-[#F8C64F] text-lg hover:text-[#FEB321] hover:underline">SKIN</a></li>
+        <li><a href="contato.html" class="text-[#F8C64F] text-lg hover:text-[#FEB321] hover:underline">CONTATO</a></li>
+      </ul>
+    </div>
+  </header>
+  <!--/Header-->
+
+  <!-- Animação Buraco de Bala Esquerda -->
+  <div data-anime="400" class="absolute l-0 buraco bala fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="800" class="absolute l-0 buraco bala-abaixo  fadeInDown mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="1200" class="absolute l-0 buraco bala-2 mt-56 fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="1600" class="absolute l-0 buraco bala-abaixo-1  mx-16 fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="2000" class="absolute l-0 buraco bala-abaixo-2 mt-56  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="2400" class="absolute l-0 buraco bala-abaixo-3  mx-16  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="2800" class="absolute l-0 buraco bala-abaixo-4 mt-56  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="3200" class="absolute l-0 buraco bala-abaixo-5  mx-16  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="3600" class="absolute l-0 buraco bala-abaixo-6 mt-56  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="4000" class="absolute l-0 buraco bala-abaixo-7  mx-16  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="4400" class="absolute l-0 buraco bala-abaixo-8 mt-56  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="4800" class="absolute l-0 buraco bala-abaixo-9  mx-16  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="5200" class="absolute l-0 buraco bala-abaixo-10 mt-56  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="5600" class="absolute l-0 buraco bala-abaixo-11  mx-16  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="6000" class="absolute l-0 buraco bala-abaixo-12 mt-56  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="6400" class="absolute l-0 buraco bala-abaixo-13  mx-16  fadeInDown">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+  <!-- /Animação Buraco de Bala Esquerda -->
+
+
+  <!-- Animação Buraco de Bala Direita -->
+  <div data-anime="400" class="fadeInDown absolute l-0 buraco bala-direita">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="1200" class="fadeInDown absolute l-0 buraco bala-2-direita mt-56">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="1600" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-1  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="2000" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-2 mt-56">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="2400" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-3  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="2800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-4 mt-56">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="3200" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-5  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="3600" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-6 mt-56">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="4000" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-7  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="4400" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-8 mt-56">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="4800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-9  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="5200" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-10 mt-56">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="5400" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-11  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="5800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-12 mt-56">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <div data-anime="6200" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-13  mx-16">
+    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+  </div>
+
+  <!-- /Animação Buraco de Bala Direita -->
+
+  <!-- Conteudo -->
+  <div class="container bg-[#1F2A40] m-auto ">
+
+    <div class="mt-28">
+      <h2 data-anime="400" class="fadeInDown text-3xl text-[#F8C64F] text-center text-base font-black uppercase rounded p-1">
+        O bilionário mercado de skins de CS:GO
+      </h2>
+    </div>
+
+    <div data-anime="800" class="fadeInDown container max-w-5xl m-auto px-4 mt-4 ">
+      <div class="flex  shadow-2xl rounded-lg">
+        <div class="">
+          <div class="p-4 pt-3 m-auto  text-[#F8C64F] hover: text-xl  space-y-4  text-2xl">
+            <p class="border-[#FEB321] pl-4 ">No jogo, existem diversas skins para armas e muitas são feitas pela própria comunidade de jogadores. Mais de 130 artistas já publicaram skins no game e a Valve pode já ter desembolsado cerca de US$ 45 milhões (aproximadamente R$ 173 milhões) aos criadores pelos serviços prestados.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- /Conteudo -->
+
+  <!-- Linha do Tempo -->
+
+
+  <!-- Carrosel 1 -->
+  <div>
+    <div data-anime="1200" class="fadeInDown relative max-w-5xl mx-auto mt-36 rounded-3xl border-dashed border-2 border-[#F8C64F] p-4  shadow-3xl">
+
+      <div>
+
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="decima" data-anime="1200">
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+
+          <div class="slide relative">
+            <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+              <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+                <h3>10. Five-SeveN StattraK</h2>
+              </div>
+            </div>
+
+            <div class="container max-w-5xl mx-auto px-8 ">
+              <div class="flex p-4 text-[#F8C64F]  text-xl ">
+                <p class="max-w-xl my-auto">
+                  A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+                </p>
+                <div>
+                  <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="nona" data-anime="1200">
+
+                    <div>
+                      <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                    </div>
+
+                    <div>
+                      <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                    </div>
+
+                    <div>
+                      <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="oitava" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="setima" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="sexta" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="quinta" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="quarta" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="terceira" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="segunda" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide relative">
+          <div class="container max-w-5xl mx-auto px-12 mt-4 ">
+            <div class="flex text-3xl text-[#F8C64F]  text-base uppercase rounded  ">
+              <h3>10. Five-SeveN StattraK</h2>
+            </div>
+          </div>
+
+          <div class="container max-w-5xl mx-auto px-8 ">
+            <div class="flex p-4 text-[#F8C64F]  text-xl ">
+              <p class="max-w-xl my-auto">
+                A Five-SeveN Blue Gem é uma das favoritas dos colecionadores de skins do CS:GO e uma versão contendo StattraK, o item que contabiliza o número de abates num visor embutido na arma, faz dela um item de luxo. Em 2016, uma dessas pistolas saiu por mais de 7 mil dólares por conter também um adesivo holográfico da equipe Titan usada no IEM Katowice 2014.
+              </p>
+              <div>
+                <div class="flex-shrink-0 ml-auto mb-5 rounded-xl  h-full" data-slide="primeira" data-anime="1200">
+
+                  <div>
+                    <img src="../img/decima-foto.png" class="h-60 rounded-xl w-screen ">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul.png" class="h-60 rounded-xl w-screen">
+                  </div>
+
+                  <div>
+                    <img src="../img/arma-azul2.jpg" class="h-60 rounded-xl w-screen ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- The previous button -->
+        <a class="rounded-lg absolute left-0 mx-3 top-1/2 p-1 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer" onclick="moveSlide(-1)"><img src="../img/icone-arma-esquerda.svg" class="w-8 h-8"></a>
+
+        <!-- The next button -->
+        <a class="rounded-lg  absolute right-0 mx-3  top-1/2 p-1 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer" onclick="moveSlide(1)"><img src="../img/icone-arma-direita.svg" class="w-8 h-8"></a>
+
+      </div>
+      <br>
+
+      <!-- The dots -->
+      <div class="flex justify-center items-center space-x-5">
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt="" class=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+        <div class="dot w-5 h-5 rounded-full cursor-pointer"><img src="../img/mira_carrosel.svg" alt=""></div>
+
+      </div>
+    </div>
+
+    <script>
+
+      // set the default active slide to the first one
+      let slideIndex = 1;
+      showSlide(slideIndex);
+
+      // change slide with the prev/next button
+      function moveSlide(moveStep) {
+        console.log('chegou');
+        showSlide(slideIndex += moveStep);
+      }
+
+      // change slide with the dots
+      function currentSlide(n) {
+        console.log('currentSlide')
+        showSlide(slideIndex = n);
+      }
+
+      function showSlide(n) {
+        let i;
+        const slides = document.getElementsByClassName("slide");
+        const dots = document.getElementsByClassName('dot');
+
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+
+        // hide all slides
+        for (i = 0; i < slides.length; i++) {
+          slides[i].classList.add('hidden');
+        }
+
+        // remove active status from all dots
+        for (i = 0; i < dots.length; i++) {
+          dots[i].classList.remove("bg-green-600");
+          dots[i].classList.add("bg-yellow-500");
+        }
+
+        // show the active slide
+        slides[slideIndex - 1].classList.remove('hidden');
+
+        // highlight the active dot
+        dots[slideIndex - 1].classList.remove("bg-yellow-500");
+        dots[slideIndex - 1].classList.add("bgyellow-500");
+      }
+
+    </script>
+
+    <!--/Fim do Carrosel 1 -->
+    <!-- /Linha do Tempo -->
+
+
+    <!-- Footer -->
+    <footer class=" bg-black h-24 mt-96">
+      <div class="container max-w-5xl mx-auto px-4 h-22 flex items-center bg-black">
+        <ul class="mt-5 flex  m-auto justify-center items-center space-x-6 pt-2 w-screen">
+          <li><a href="https://store.steampowered.com/?l=portuguese" target="_blank">
+              <img src="../img/steam.svg" alt="steam" class="w-10 h-10">
+            </a>
+          </li>
+
+          <li><a href="https://www.valvesoftware.com/pt-br/" target="_blank"><img src=" ../img/valve.svg" alt="valve" class="w-32 h-4/4 rounded">
+            </a>
+          </li>
+          <li><a href="https://www.instagram.com/csgo.br.oficial/" target="_blank"> <img src="../img/instagram.svg" alt="instagram" class="w-9 h-9 fill-[#F8C64F] hover:fill-[#FEB321]"></a>
+          </li>
+          <li><a href="https://www.facebook.com/groups/CSGO.Competitivo/" target="_blank">
+              <img src="../img/facebook.svg" alt="facebook" class="h-9">
+          </li>
+          <li class=" pb-2 flex ml-auto pt-2 text-xl text-[#FEB321] text-base ">
+            @Gabriel Henrique & Kevin Lukas (2022)
+          </li>
+        </ul>
+      </div>
+
+
+    </footer>
+    <!-- /Footer -->
+    <script src="../js/simple-anime.js"></script>
+    <script src="../js/simple-slide.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+
+
+</html>

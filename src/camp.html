@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../dist/output.css">
-  <link rel="stylesheet" href="../src/input.css">
+  <link rel="stylesheet" href="../src/camp.css">
   <script>document.documentElement.classList.add("js");</script>
   <title>CStory</title>
 </head>
@@ -176,7 +176,7 @@
       <div>
         <img src="../img/atencao.png" alt="atencao" class="static  h-96 w-auto">
       </div>
-      <p class="text-center absolute pt-24 w-2/6 text-justify text-base text-[#F8C64F] text-base uppercase ">A história do Counter-Strike é disparada uma das mais ricas no meio dos esportes eletrônicos. Das versões mais antigas até a Global Offensive (CS:GO), os fãs já puderam acompanhar diversas mudanças, conquistas, choros e também sorrisos causados pela competição.</p>
+      <p class="text-center absolute pt-24 w-2/6  text-base text-[#F8C64F] text-base uppercase ">A história do Counter-Strike é disparada uma das mais ricas no meio dos esportes eletrônicos. Das versões mais antigas até a Global Offensive (CS:GO), os fãs já puderam acompanhar diversas mudanças, conquistas, choros e também sorrisos causados pela competição.</p>
     </div>
 
     <div class="container max-w-5xl m-auto px-4 h-24 flex items-center justify-center ">
@@ -273,6 +273,7 @@
 
     // change slide with the prev/next button
     function moveSlide(moveStep) {
+      console.log('chegou');
       showSlide(slideIndex += moveStep);
     }
 

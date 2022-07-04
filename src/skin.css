@@ -1,0 +1,349 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Fonte do CS */
+@font-face {
+  font-family: 'cs';
+  src: url('../fonte/cs_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.body{
+  font-family: 'cs';
+  word-spacing: 5px;
+}
+
+
+/* Fazendo a Imagem Mexer */
+img{
+  max-height: screen;
+
+}
+.bloco {
+  width: screen;
+  height: screen  ;
+  margin: 15px;
+  overflow: hidden;
+}
+.bloco img{
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.bloco img:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+/* Fazendo a Animação Mexer */
+.elem {
+
+  animation: moveToRight 1s ease-in-out;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(40.5rem);
+  }
+}
+
+
+/* Fazer os Elementos Piscarem */
+.autor {
+  animation: animate 
+      1.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 0.7;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+
+
+/* Bala Esquerda */
+.bala {
+  left: 0%;
+}
+
+
+.bala-abaixo {
+  margin-top: 112px;
+  margin-bottom: 51px;
+  left: 0%;
+
+}
+.bala-2 {
+  left: 0%;
+    animation-delay: 2s;
+
+}
+.bala-abaixo-1 {
+  margin-top: 335px;
+  left: 0%;
+
+}
+
+.bala-abaixo-2 {
+  margin-top: 467px;
+  left: 0%;
+
+
+}
+.bala-abaixo-3 {
+  margin-top: 579px;
+  left: 0%;
+
+}
+
+.bala-abaixo-4 {
+  margin-top: 691px;
+  left: 0%;
+
+}
+
+.bala-abaixo-5 {
+  margin-top: 803px;
+  left: 0%;
+
+}
+
+.bala-abaixo-6 {
+  margin-top: 915px;
+  left: 0%;
+
+}
+
+
+.bala-abaixo-7 {
+  margin-top: 1027px;
+  left: 0%;
+
+}
+
+
+.bala-abaixo-8 {
+  margin-top: 1139px;
+  left: 0%;
+
+}
+
+
+.bala-abaixo-9 {
+  margin-top: 1251px;
+  left: 0%;
+
+}
+
+.bala-abaixo-10 {
+  margin-top: 1363px;
+  left: 0%;
+
+}
+.bala-abaixo-11 {
+  margin-top: 1475px;
+  left: 0%;
+
+}
+.bala-abaixo-12 {
+  margin-top: 1587px;
+  left: 0%;
+
+}
+.bala-abaixo-13 {
+  margin-top: 1699px;
+  left: 0%;
+
+}
+/* Bala Esquerda */
+
+/* Bala Direita */
+.bala-direita {
+  right: 0%;
+
+}
+.bala-2-direita {
+  right: 0%;
+
+}
+
+.bala-abaixo-direita {
+  margin-top: 112px;
+  margin-bottom: 51px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-1 {
+  margin-top: 335px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-2 {
+  margin-top: 467px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-3 {
+  margin-top: 579px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-4 {
+  margin-top: 691px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-5 {
+  margin-top: 803px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-6 {
+  margin-top: 915px;
+  right: 0%;
+
+}
+
+
+.bala-abaixo-direita-7 {
+  margin-top: 1027px;
+  right: 0%;
+
+}
+
+
+.bala-abaixo-direita-8 {
+  margin-top: 1139px;
+  right: 0%;
+
+}
+
+
+.bala-abaixo-direita-9 {
+  margin-top: 1251px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-10 {
+  margin-top: 1363px;
+  right: 0%;
+
+}
+
+.bala-abaixo-direita-11 {
+  margin-top: 1475px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-12 {
+  margin-top: 1587px;
+  right: 0%;
+
+}
+.bala-abaixo-direita-13 {
+  margin-top: 1699px;
+  right: 0%;
+
+}
+
+/* Bala Direita */
+
+
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 0.7;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+/* JavaScript */
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	border: none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -99px;
+	overflow: hidden;
+	background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+	background: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+
+}
+
+.js .fadeInDown {
+  transform: translate3d(0,   0px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
+
+
+
+
+/* Carrosel JS */
+
