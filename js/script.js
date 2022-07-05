@@ -13,7 +13,7 @@ if(window.SimpleSlide){
 			slide: "oitava", // nome do atributo data-slide="principal"
 			time: 2500 // tempo de transição dos slides
 			});
-			
+
 			new SimpleSlide({
 				slide: "setima", // nome do atributo data-slide="principal"
 				time: 2500 // tempo de transição dos slides
