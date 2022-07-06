@@ -348,7 +348,7 @@ img{
 /*Steam */
 
 p{
-  color: #FEB321; 
+  color: lime; 
   font-family: "Courier";
   font-size: 20px;
   margin: 10px 0 0 10px;
@@ -368,7 +368,7 @@ p:nth-child(3){
 
 
 p a{
-  color: #FEB321;
+  color: lime;
   text-decoration: none;
 }
 
@@ -403,7 +403,7 @@ span{
 
 /* Playstation */
 h3{
-  color: #FEB321; 
+  color: lime; 
   font-family: "Courier";
   font-size: 20px;
   margin: 10px 0 0 10px;
@@ -422,7 +422,7 @@ h3:nth-child(3){
 }
 
 h3 a{
-  color: #FEB321;
+  color: lime;
   text-decoration: none;
 }
 
@@ -457,7 +457,7 @@ span{
 
 /* Xbox */
 h4{
-  color: #FEB321; 
+  color: lime; 
   font-family: "Courier";
   font-size: 20px;
   margin: 10px 0 0 10px;
@@ -476,7 +476,7 @@ h4:nth-child(3){
 }
 
 h4 a{
-  color: #FEB321;
+  color: lime;
   text-decoration: none;
 }
 
