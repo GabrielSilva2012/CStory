@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 /* Fonte do CS */
 @font-face {
   font-family: 'cs';
@@ -27,6 +28,7 @@ img{
   width: screen;
   height: screen  ;
   margin: 15px;
+  margin-left: 220px;
   overflow: hidden;
 }
 .bloco img{
