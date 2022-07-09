@@ -25,7 +25,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Tailwind CSS](https://tailwindcss.com/)
-
+- [JavaScript](https://www.javascript.com/)
 ---
 
 ## 💾 Como baixar o projeto
