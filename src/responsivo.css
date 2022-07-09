@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 787px) {
+
+.body {
+  text-justify: auto;
+}
+.bala_esquerda {
+ display: none;
+  }
+
+.bala_direita {
+  display: none;
+}
+   
+.atencao {
+  font-size: .770rem;
+  width: 60%;
+}
+
+.evolucao {
+  display: block;
+  text-align: center;
+}
+.imagem-home{
+height: 192px;
+  }
+.home li a{
+  font-size:small;
+}
+
+.nome {
+  font-size:larger;
+  text-align: center;
+}
+
+.skin{
+ display: block;
+}
+
+.armas {
+grid-row: inherit;
+grid-template-columns: auto;
+height: auto;
+}
+
+.teste{
+  padding: 0;
+}
+h5{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 11px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 42em;
+  animation: type 4s steps(60, end); 
+}
+}
+
+@media only screen and (min-width: 788px) and (max-width: 1050px) {
+
+.bala_esquerda {
+   display: none;
+}
+  
+.bala_direita {
+    display: none;
+}
+.atencao {
+  font-size: .950rem;
+  width: 48%;
+}
+
+.evolucao {
+  display: block;
+  text-align: center;
+}
+h5{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 15px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 42em;
+  animation: type 4s steps(60, end); 
+}
+
+
+
+}

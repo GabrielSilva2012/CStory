@@ -28,7 +28,6 @@ img{
   width: screen;
   height: screen  ;
   margin: 15px;
-  margin-left: 220px;
   overflow: hidden;
 }
 .bloco img{
@@ -53,7 +52,7 @@ img{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(36.6rem);
+    transform: translateX(36rem);
   }
 }
 
