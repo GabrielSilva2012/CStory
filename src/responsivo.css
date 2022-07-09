@@ -46,6 +46,10 @@ grid-template-columns: auto;
 height: auto;
 }
 
+.elem{
+  display: none;
+}
+
 .teste{
   padding: 0;
 }
