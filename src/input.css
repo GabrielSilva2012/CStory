@@ -51,7 +51,7 @@ img{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(32.813rem);
+    transform: translateX(32rem);
   }
 }
 

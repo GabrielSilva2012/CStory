@@ -7,24 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../dist/output.css">
   <link rel="stylesheet" href="../src/download.css">
+  <link rel="stylesheet" href="../src/responsivo.css">
+  <link rel="shortcut icon" href="../img/logo.jpg">
   <script>document.documentElement.classList.add("js");</script>
   <title>CStory</title>
 </head>
 
 <body class="h-screen  bg-[#1F2A40] border-yellow-400  body">
   <!--Header-->
-  <header class="bg-black">
+  <header class="bg-black header_menu">
     <div class="absolute w-6 h-6 left-96 my-5 elem"><img src="../img/bala.svg" alt="" class=""></div>
     <div class="container max-w-5xl mx-auto px-4 h-24 flex items-center bg-black">
       <div class=""><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">
-          <img src="../img/cs-go-logo.svg" alt="logo" class="h-72">
+          <img src="../img/cs-go-logo.svg" alt="logo" class="h-72 imagem-home">
 
         </a>
       </div>
 
-      <ul class="flex  items-center space-x-3 ml-auto pt-2">
+      <ul class="flex  items-center space-x-3 ml-auto pt-2 home">
         <li><a href="index.html" class="text-[#F8C64F] text-lg  hover:text-[#FEB321] hover:underline">HOME</a>
-
 
         </li>
         <li><a href="comp.html" class="text-[#F8C64F] text-lg hover:text-[#FEB321] hover:underline">COMP</a></li>
@@ -36,130 +37,132 @@
   <!--/Header-->
 
   <!-- Animação Buraco de Bala Esquerda -->
-  <div data-anime="400" class="absolute l-0 buraco bala fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+  <div class="bala_esquerda">
+    <div data-anime="400" class="absolute l-0 buraco bala fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="800" class="absolute l-0 buraco bala-abaixo  fadeInDown mx-16">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="800" class="absolute l-0 buraco bala-abaixo  fadeInDown mx-16">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="1200" class="absolute l-0 buraco bala-2 mt-56 fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="1200" class="absolute l-0 buraco bala-2 mt-56 fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="1600" class="absolute l-0 buraco bala-abaixo-1  mx-16 fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="1600" class="absolute l-0 buraco bala-abaixo-1  mx-16 fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="2000" class="absolute l-0 buraco bala-abaixo-2 mt-56  fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="2000" class="absolute l-0 buraco bala-abaixo-2 mt-56  fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="2400" class="absolute l-0 buraco bala-abaixo-3  mx-16  fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="2400" class="absolute l-0 buraco bala-abaixo-3  mx-16  fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="2800" class="absolute l-0 buraco bala-abaixo-4 mt-56  fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="2800" class="absolute l-0 buraco bala-abaixo-4 mt-56  fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="3200" class="absolute l-0 buraco bala-abaixo-5  mx-16  fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="3200" class="absolute l-0 buraco bala-abaixo-5  mx-16  fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="3600" class="absolute l-0 buraco bala-abaixo-6 mt-56  fadeInDown">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    <div data-anime="3600" class="absolute l-0 buraco bala-abaixo-6 mt-56  fadeInDown">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
   </div>
-
   <!-- /Animação Buraco de Bala Esquerda -->
 
 
   <!-- Animação Buraco de Bala Direita -->
-  <div data-anime="400" class="fadeInDown absolute l-0 buraco bala-direita">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+  <div class="bala_direita">
+    <div data-anime="400" class="fadeInDown absolute l-0 buraco bala-direita">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita  mx-16">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita  mx-16">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="1200" class="fadeInDown absolute l-0 buraco bala-2-direita mt-56">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="1200" class="fadeInDown absolute l-0 buraco bala-2-direita mt-56">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="1600" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-1  mx-16">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="1600" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-1  mx-16">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="2000" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-2 mt-56">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="2000" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-2 mt-56">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="2400" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-3  mx-16">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="2400" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-3  mx-16">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="2800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-4 mt-56">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="2800" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-4 mt-56">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="3200" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-5  mx-16">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
-  </div>
+    <div data-anime="3200" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-5  mx-16">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
 
-  <div data-anime="3600" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-6 mt-56">
-    <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    <div data-anime="3600" class="fadeInDown absolute l-0 buraco bala-abaixo-direita-6 mt-56">
+      <img src="../img/buraco-bala.svg" alt="" class="w-16 h-auto">
+    </div>
   </div>
-
 
   <!-- /Animação Buraco de Bala Direita -->
   <div class="container bg-[#1F2A40] m-auto max-w-5xl">
 
     <div class="mt-16">
-      <h2 class="fadeInDown text-5xl text-[#F8C64F] text-center text-base font-black uppercase rounded p-1">
+      <h2 class=" text-5xl text-[#F8C64F] text-center text-base font-black uppercase rounded p-1">
         Como baixar CS:GO
       </h2>
     </div>
     <div class="mt-16">
-      <h2 class="fadeInDown text-3xl text-[#F8C64F]  text-base text-center uppercase rounded p-1">
+      <h2 class="text-2xl text-[#F8C64F]  text-base text-center uppercase rounded p-1">
         Steam (Windows, macOS, Linux)
       </h2>
     </div>
 
-    <div class="bg-black fadeInDown border-dashed border-2 border-[#F8C64F] fadeInDown relative max-w-5xl mx-auto p-4  shadow-3xl">
-      <div class="p-4 pt-3 m-auto  text-[#F8C64F] text-3xl text-justify">
-        <p class="border-[#FEB321] pl-4 text-justify">1. Acesse<a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" class="hover:underline"> store.steampowered.com </a> e faça login em sua conta;</p>
-        <p class="border-[#FEB321] pl-4 text-justify">2. Inclua CS:GO gratuitamente na sua conta;</p>
-        <p class="border-[#FEB321] pl-4 text-justify">3. Abra o Steam em seu computador e instale o jogo.</p>
+    <div class="bg-black border-dashed border-2 border-[#F8C64F] fadeInDown relative max-w-5xl mx-auto p-4  shadow-3xl teste">
+      <div class="p-4 pt-3 m-auto  text-[#F8C64F] text-3xl text-justify teste">
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">1. Acesse<a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" class="hover:underline"> store.steampowered.com </a> e faça login em sua conta;</h5>
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">2. Inclua CS:GO gratuitamente na sua conta;</h5>
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">3. Abra o Steam em seu computador e instale o jogo.</h5>
       </div>
     </div>
 
     <div class="mt-8">
-      <h2 class="fadeInDown text-3xl text-[#F8C64F]  text-base text-center uppercase rounded p-1"> PlayStation Store (PS3)
+      <h2 class="fadeInDown text-2xl text-[#F8C64F]  text-base text-center uppercase rounded p-1"> PlayStation Store (PS3)
       </h2>
     </div>
 
-    <div class="bg-black fadeInDown border-dashed border-2 border-[#F8C64F] fadeInDown relative max-w-5xl mx-auto p-4  shadow-3xl">
-      <div class="p-4 pt-3 m-auto  text-[#F8C64F] text-3xl text-justify">
+    <div class="bg-black fadeInDown border-dashed border-2 border-[#F8C64F] fadeInDown relative max-w-5xl mx-auto p-4  shadow-3xl teste">
+      <div class="p-4 pt-3 m-auto  text-[#F8C64F] text-3xl text-justify teste">
 
-        <p class=" border-[#FEB321] pl-4 text-justify ">1. Acesse <a href=" https://marketplace.xbox.com/pt-br/Product/Counter-Strike-GO/66acd000-77fe-1000-9115-d8025841125a" class="hover:underline"> store.playstation.com </a> e faça login em sua conta da PSN;</p>
-        <p class="border-[#FEB321] pl-4 text-justify">2. Compre CS:GO para a sua conta;</p>
-        <p class="border-[#FEB321] pl-4 text-justify">3. Acesse seu PS3 e instale o jogo.</p>
+        <h5 class=" border-[#FEB321] pl-4 text-justify teste">1. Acesse <a href=" https://marketplace.xbox.com/pt-br/Product/Counter-Strike-GO/66acd000-77fe-1000-9115-d8025841125a" class="hover:underline"> store.playstation.com </a> e faça login em sua conta da PSN;</h5>
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">2. Compre CS:GO para a sua conta;</h5>
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">3. Acesse seu PS3 e instale o jogo.</h5>
       </div>
     </div>
 
     <div class="mt-8">
-      <h2 class="fadeInDown text-3xl text-[#F8C64F]  text-base text-center uppercase rounded p-1"> Xbox Store (Xbox 360)
+      <h2 class="fadeInDown text-2xl text-[#F8C64F]  text-base text-center uppercase rounded p-1"> Xbox Store (Xbox 360)
       </h2>
     </div>
 
-    <div class="bg-black fadeInDown border-dashed border-2 border-[#F8C64F] fadeInDown relative max-w-5xl mx-auto p-4  shadow-3xl">
-      <div class="p-4 pt-3 m-auto  text-[#F8C64F] text-3xl text-justify">
+    <div class="bg-black fadeInDown border-dashed border-2 border-[#F8C64F] fadeInDown relative max-w-5xl mx-auto p-4  shadow-3xl teste">
+      <div class="p-4 pt-3 m-auto  text-[#F8C64F] text-3xl text-justify teste">
 
-        <p class="border-[#FEB321] pl-4 text-justify">1. Acesse <a href="https://marketplace.xbox.com/pt-br/Product/Counter-Strike-GO/66acd000-77fe-1000-9115-d8025841125a" class="hover:underline">marketplace.xbox.com</a> e faça login em sua conta Xbox;</p>
-        <p class="border-[#FEB321] pl-4 text-justify">2. Compre CS:GO para a sua conta;</p>
-        <p class="border-[#FEB321] pl-4 text-justify">3. Acesse seu Xbox 360 e instale o jogo.</p>
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">1. Acesse <a href="https://marketplace.xbox.com/pt-br/Product/Counter-Strike-GO/66acd000-77fe-1000-9115-d8025841125a" class="hover:underline">marketplace.xbox.com</a> e faça login em sua conta Xbox;</h5>
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">2. Compre CS:GO para a sua conta;</h5>
+        <h5 class="border-[#FEB321] pl-4 text-justify teste">3. Acesse seu Xbox 360 e instale o jogo.</h5>
       </div>
 
     </div>
@@ -188,7 +191,7 @@
         <li><a href="https://www.instagram.com/csgo.br.oficial/" target="_blank"> <img src="../img/instagram.svg" alt="instagram" class="w-9 h-9 fill-[#F8C64F] hover:fill-[#FEB321]"></a>
         </li>
         <li><a href="https://www.facebook.com/groups/CSGO.Competitivo/" target="_blank">
-            <img src="../img/facebook.svg" alt="facebook" class="h-9">
+            <img src="../img/facebook.svg" alt="facebook" class="h-9"></a>
         </li>
         <li class=" pb-2 flex ml-auto pt-2 text-xl text-[#FEB321] text-base ">
           @Gabriel Henrique & Kevin Lukas (2022)

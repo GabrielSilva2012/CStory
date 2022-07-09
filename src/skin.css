@@ -51,7 +51,7 @@ img{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(40.5rem);
+    transform: translateX(39.8rem);
   }
 }
 
@@ -321,6 +321,9 @@ img{
 	text-indent: -99px;
 	overflow: hidden;
 	background: #1d1d1d;
+}
+.skin {
+  display: flex;
 }
 
 .js [data-slide-nav] button.active {
